@@ -91,7 +91,7 @@ namespace Reservation_vols.CRUD
             {
                 using(NpgsqlCommand cmd = c.CreateCommand())
                 {
-                    cmd.CommandText = "SELECT airportid, name, address FROM airports";
+                    cmd.CommandText = "SELECT airportid, name, address FROM airports WHERE isdeleted = false";
                     c.Open();
 
                     using (NpgsqlDataReader reader = cmd.ExecuteReader())
@@ -111,12 +111,46 @@ namespace Reservation_vols.CRUD
 
         public void Update(Airport airport)
         {
+            using (NpgsqlConnection c = new NpgsqlConnection(ConnectionString))
+            {
+                using (NpgsqlCommand cmd = c.CreateCommand())
+                {
+                    cmd.CommandText = $"UPDATE airports SET name = @name, address = @address WHERE airportid = {airport.AirportId} ";
 
+                    NpgsqlParameter Pname = new NpgsqlParameter()
+                    {
+                        ParameterName = "name",
+                        Value = airport.Name
+                    };
+                    NpgsqlParameter Paddress = new NpgsqlParameter()
+                    {
+                        ParameterName = "address",
+                        Value = airport.Address
+                    };
+
+
+                    cmd.Parameters.Add(Pname);
+                    cmd.Parameters.Add(Paddress);
+
+                    c.Open();
+                    int rows = cmd.ExecuteNonQuery();
+                }
+            }
         }
 
-        public void Delete(Airport airport)
+        public void Delete(int airportId)
         {
+            using (NpgsqlConnection connection = new NpgsqlConnection(ConnectionString))
+            {
+                using (NpgsqlCommand cmd = connection.CreateCommand())
+                {
+                    cmd.CommandText = @"UPDATE airports SET isdeleted = true WHERE airportid = " + airportId;
 
+                    connection.Open();
+
+                    int rows = cmd.ExecuteNonQuery();
+                }
+            }
         }
 
 

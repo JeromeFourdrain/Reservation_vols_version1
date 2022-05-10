@@ -1,0 +1,20 @@
+﻿@using Reservation_vols
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    List<Ticket> tickets = (List<Ticket>)ViewData["tickets"];
+}
+
+<h1>Liste des tickets :</h1>
+
+<!-- <ul> Début de la liste -->
+<ul>
+    @foreach(Ticket ticket in tickets)
+    {
+        <!-- <li> Element de la liste </li> -->
+        <li>Numéro du ticket : @ticket.TicketId</li>
+    }
+
+<!-- </ul> Fin de la liste-->
+</ul>

@@ -1,0 +1,42 @@
+﻿@using Reservation_vols
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    List<Airport> airports = (List<Airport>)ViewData["airports"];
+}
+
+<a asp-action="Create"><input type="button" value="Add New Airport" class="btn btn-primary" /></a>
+
+<h1>Liste des aéroports :</h1>
+
+<table class="table sortable">
+  <thead>
+    <!-- Dans <thead> on va mettre une ligne <tr> avec les noms de colonne <th> -->
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(Airport airport in airports)
+    {
+        <!-- <tr> une ligne du tableau -->
+        <tr>
+          <td>@airport.AirportId</td>
+          <td>@airport.Name</td>
+          <td>@airport.Address</td>
+          <!-- <a> est la balise qui permet de faire un lien-->
+          <!-- asp-action="Edit" signifie que l'on va executer la méthode Edit du controller Airport-->
+          <td> 
+              <a asp-action="Edit" asp-route-id="@airport.AirportId"><i class="bi-pencil"></i></a> 
+              <a asp-action="Delete" asp-route-id="@airport.AirportId"><i class="bi-trash"></i></a>
+          </td>
+        </tr>
+    }
+  </tbody>
+</table>
+
+$.bootstrapSortable({ applyLast: true })

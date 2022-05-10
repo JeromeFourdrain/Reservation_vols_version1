@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "bootstrap-sortable/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Moment.js": "2.3.1",
+          "jQuery": "1.10.2"
+        }
+      },
+      "jQuery/1.10.2": {
+        "type": "package"
+      },
+      "Moment.js/2.3.1": {
+        "type": "package"
+      },
       "Npgsql/6.0.4": {
         "type": "package",
         "dependencies": {
@@ -29,6 +42,54 @@
     }
   },
   "libraries": {
+    "bootstrap-sortable/2.0.0": {
+      "sha512": "0iBfyWppBf7r7bll+a69/rC1BIkGAQV9DeXq292KkS6pLlBrKRAzWdj+rXg19AzXd5SOsDt4E2VuF/acVPdJdw==",
+      "type": "package",
+      "path": "bootstrap-sortable/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bootstrap-sortable.2.0.0.nupkg.sha512",
+        "bootstrap-sortable.nuspec",
+        "content/Content/bootstrap-sortable.css",
+        "content/Scripts/bootstrap-sortable.js"
+      ]
+    },
+    "jQuery/1.10.2": {
+      "sha512": "uPspgAZqsXYOwLW+Kf3uRxdFAyX1EiEd6AWJhCsnZNVsUJmEbsZSxA0P+ku6oAhHI682TOSwkbmmJPwFgdY5cA==",
+      "type": "package",
+      "path": "jquery/1.10.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-1.10.2-vsdoc.js",
+        "Content/Scripts/jquery-1.10.2.js",
+        "Content/Scripts/jquery-1.10.2.min.js",
+        "Content/Scripts/jquery-1.10.2.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-1.10.2.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.1.10.2.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
+    "Moment.js/2.3.1": {
+      "sha512": "M2wL2F5MI65w4mqEz7x+UXh1nDuvackyoScn7wyd4lobL0cvTdlID9omqzZZt4q+je0l/MYGQtYp3uYHGae/cA==",
+      "type": "package",
+      "path": "moment.js/2.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/moment-with-langs.js",
+        "Content/Scripts/moment-with-langs.min.js",
+        "Content/Scripts/moment.js",
+        "Content/Scripts/moment.min.js",
+        "moment.js.2.3.1.nupkg.sha512",
+        "moment.js.nuspec"
+      ]
+    },
     "Npgsql/6.0.4": {
       "sha512": "SJMlOmFHr32oOzVXeHmarGaBKkhi0wHVN/rzuu2tUSJ4Qx2AkHCpr9R/DhLWwDiklqgzFU++9wkFyGJxbx/zzg==",
       "type": "package",
@@ -80,7 +141,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Npgsql >= 6.0.4"
+      "Npgsql >= 6.0.4",
+      "bootstrap-sortable >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -90,11 +152,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jerom\\source\\repos\\Classe\\Reservation_vols_version1\\Reservation_vols_version1\\Reservation_vols_version1\\Reservation_vols_version1.csproj",
+      "projectUniqueName": "C:\\Users\\jerom\\source\\repos\\ASP MVC\\Reservation_vols_version1\\Reservation_vols_version1\\Reservation_vols_version1\\Reservation_vols_version1.csproj",
       "projectName": "Reservation_vols_version1",
-      "projectPath": "C:\\Users\\jerom\\source\\repos\\Classe\\Reservation_vols_version1\\Reservation_vols_version1\\Reservation_vols_version1\\Reservation_vols_version1.csproj",
+      "projectPath": "C:\\Users\\jerom\\source\\repos\\ASP MVC\\Reservation_vols_version1\\Reservation_vols_version1\\Reservation_vols_version1\\Reservation_vols_version1.csproj",
       "packagesPath": "C:\\Users\\jerom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jerom\\source\\repos\\Classe\\Reservation_vols_version1\\Reservation_vols_version1\\Reservation_vols_version1\\obj\\",
+      "outputPath": "C:\\Users\\jerom\\source\\repos\\ASP MVC\\Reservation_vols_version1\\Reservation_vols_version1\\Reservation_vols_version1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -130,6 +192,10 @@
           "Npgsql": {
             "target": "Package",
             "version": "[6.0.4, )"
+          },
+          "bootstrap-sortable": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           }
         },
         "imports": [

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Reservation_vols_version1.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/lib/bootstrap-sortable-master/Contents/bootstrap-sortable.css" />
 </head>
 <body>
     <header>
@@ -24,6 +26,18 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Airports" asp-action="Index">Aéroports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Clients" asp-action="Index">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Flights" asp-action="Index">Vols</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Tickets" asp-action="Index">Tickets</a>
                         </li>
                     </ul>
                 </div>
@@ -44,6 +58,8 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap-sortable-master/Scripts/bootstrap-sortable.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap-sortable-master/Scripts/moment.min.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

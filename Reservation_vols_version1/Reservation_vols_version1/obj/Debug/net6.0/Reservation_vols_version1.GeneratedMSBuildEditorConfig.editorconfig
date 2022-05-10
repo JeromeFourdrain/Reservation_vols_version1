@@ -8,37 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Reservation_vols_version1
 build_property.RootNamespace = Reservation_vols_version1
-build_property.ProjectDir = C:\Users\jerom\source\repos\Classe\Reservation_vols_version1\Reservation_vols_version1\Reservation_vols_version1\
+build_property.ProjectDir = C:\Users\jerom\source\repos\ASP MVC\Reservation_vols_version1\Reservation_vols_version1\Reservation_vols_version1\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jerom\source\repos\Classe\Reservation_vols_version1\Reservation_vols_version1\Reservation_vols_version1
+build_property.MSBuildProjectDirectory = C:\Users\jerom\source\repos\ASP MVC\Reservation_vols_version1\Reservation_vols_version1\Reservation_vols_version1
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/jerom/source/repos/Classe/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Home/Index.cshtml]
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Airports/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Airports/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Airports/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Airports/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWlycG9ydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Clients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Flights/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jerom/source/repos/Classe/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Home/Privacy.cshtml]
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jerom/source/repos/Classe/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Shared/Error.cshtml]
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jerom/source/repos/Classe/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jerom/source/repos/Classe/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/_ViewImports.cshtml]
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Tickets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jerom/source/repos/Classe/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/_ViewStart.cshtml]
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jerom/source/repos/Classe/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Shared/_Layout.cshtml]
+[C:/Users/jerom/source/repos/ASP MVC/Reservation_vols_version1/Reservation_vols_version1/Reservation_vols_version1/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uahcmilmqc

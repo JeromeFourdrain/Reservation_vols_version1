@@ -5,6 +5,11 @@
       "ProjectGuid": "1990507e-d5a2-4144-9d33-c156422f8d57",
       "DisplayName": "Reservation_vols_version1",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Fichiers divers",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

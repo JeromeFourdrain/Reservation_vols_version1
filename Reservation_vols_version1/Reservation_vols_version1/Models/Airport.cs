@@ -1,16 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Reservation_vols
 {
-    internal class Airport
+    public class Airport
     {
         public int AirportId { get; set; }
-        public string Name { get; private set; }
-        public string Address { get; private set; }
+
+        [Required(ErrorMessage = "Nom requis")]
+        public string Name { get; set; }
+
+
+        [Required(ErrorMessage = "Adresse requise")]
+        public string Address { get; set; }
+
+        public Airport()
+        {
+
+        }
 
         public Airport(string Name, string Address)
         {

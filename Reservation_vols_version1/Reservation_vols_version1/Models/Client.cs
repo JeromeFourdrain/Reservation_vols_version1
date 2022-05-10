@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Reservation_vols
 {
-    internal class Client
+    public class Client
     {
         public int ClientId { get; set; }
         public string FirstName { get; set; }

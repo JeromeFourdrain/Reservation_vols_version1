@@ -62,7 +62,7 @@ namespace Reservation_vols.CRUD
             {
                 using (NpgsqlCommand cmd = c.CreateCommand())
                 {
-                    cmd.CommandText = "SELECT clientId, firstname, lastname, address, birthdate, phonenumber FROM clients WHERE id = " + id;
+                    cmd.CommandText = "SELECT clientId, firstname, lastname, address, birthdate, phonenumber FROM clients WHERE clientid = " + id;
 
                     c.Open();
 

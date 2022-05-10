@@ -8,12 +8,21 @@
     ".NETCoreApp,Version=v6.0": {
       "Reservation_vols_version1/1.0.0": {
         "dependencies": {
-          "Npgsql": "6.0.4"
+          "Npgsql": "6.0.4",
+          "bootstrap-sortable": "2.0.0"
         },
         "runtime": {
           "Reservation_vols_version1.dll": {}
         }
       },
+      "bootstrap-sortable/2.0.0": {
+        "dependencies": {
+          "Moment.js": "2.3.1",
+          "jQuery": "1.10.2"
+        }
+      },
+      "jQuery/1.10.2": {},
+      "Moment.js/2.3.1": {},
       "Npgsql/6.0.4": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -33,6 +42,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "bootstrap-sortable/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0iBfyWppBf7r7bll+a69/rC1BIkGAQV9DeXq292KkS6pLlBrKRAzWdj+rXg19AzXd5SOsDt4E2VuF/acVPdJdw==",
+      "path": "bootstrap-sortable/2.0.0",
+      "hashPath": "bootstrap-sortable.2.0.0.nupkg.sha512"
+    },
+    "jQuery/1.10.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uPspgAZqsXYOwLW+Kf3uRxdFAyX1EiEd6AWJhCsnZNVsUJmEbsZSxA0P+ku6oAhHI682TOSwkbmmJPwFgdY5cA==",
+      "path": "jquery/1.10.2",
+      "hashPath": "jquery.1.10.2.nupkg.sha512"
+    },
+    "Moment.js/2.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M2wL2F5MI65w4mqEz7x+UXh1nDuvackyoScn7wyd4lobL0cvTdlID9omqzZZt4q+je0l/MYGQtYp3uYHGae/cA==",
+      "path": "moment.js/2.3.1",
+      "hashPath": "moment.js.2.3.1.nupkg.sha512"
     },
     "Npgsql/6.0.4": {
       "type": "package",

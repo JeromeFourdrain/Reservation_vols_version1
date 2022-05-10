@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Reservation_vols.Airport
+@using Reservation_vols
+@{
+    ViewData["title"] = "Delete";
+    Airport airport = (Airport)ViewData["airport"];
+}
+<h1>Delete</h1>
+
+<div class="row">
+    <h2>Aéroport : </h2>
+    <p>Nom : @airport.Name</p>
+    <p>Addresse : @airport.Address</p>
+    <hr />
+    <p>Confirmez vous la suppression de cet aéroport ?</p>
+</div>
+    
+<form asp-action="Delete">
+    <input type="submit" value ="OUI" class="btn btn-success"/>
+    <a asp-action="Index"><input type="button" value ="NON" class="btn btn-danger"/></a>
+</form>
+
+
+    
+    
